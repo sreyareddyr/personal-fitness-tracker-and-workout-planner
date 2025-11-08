@@ -67,11 +67,7 @@ const WorkoutPlanner = () => {
       setEditingWorkout(null);
       e.currentTarget.reset();
     } catch (error) {
-      toast({
-        title: "Error",
-        description: "Failed to save workout. Please make sure the backend is running.",
-        variant: "destructive",
-      });
+      
     }
   };
 
